@@ -17,7 +17,10 @@ import NavbarMob from '../components/NavbarMob.vue'
 export default {
     components:{
         NavbarMob
-    }
+    },
+    mounted(){
+    this.$router.push('/cases')
+ }
 }
 </script>
 
